@@ -12,18 +12,29 @@
      
        &__title {
          font-weight: 300;
-         /* color: purple; */
-          color: $mainBlue; 
-         font-size: 4.8rem;
+         color: $mainBlue; 
          margin: 0;
-       }
+         font-size: 1.1rem;
+         @mixin  atSmall {
+          font-size: 2rem;
+         }   
+         @mixin  atMedium {
+          font-size: 3.2rem;
+         } 
+         @mixin  atLarge {
+          font-size: 4.8rem;
+         } 
+         
+        }
      
        &__subtitle {
          font-weight: 300;
-         /* color: rgb(128, 0, 2); */
          color: $mainBlue; 
-         font-size: 2.9rem;
+         font-size: 1.1rem;
          margin: 0;
+
+           
+
        }
        &__description {
         color: #FFF;
